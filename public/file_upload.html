@@ -1,24 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="./style.css" />
     <title>File Upload Example</title>
-</head>
+  </head>
 
-<body class="d-flex justify-content-center align-items-center">
+  <body class="d-flex justify-content-center align-items-center">
     <div class="card p-2">
-        <h2>File Upload Example</h2>
-        <h5>Update the Profile Pic</h5>
-        <hr>
-        <form action="/profile" method="post" enctype="multipart/form-data">
-            <input type="file" class="form-group-item" name="avatar" />
-            <input type="submit" class="form-group-item" />
-        </form>
+      <h2>File Upload Example</h2>
+      <h5>Update the Profile Pic</h5>
+      <hr />
+      <form action="/upload" method="post" enctype="multipart/form-data">
+        <input type="file" class="form-group-item" name="avatar" />
+        <input type="submit" class="form-group-item" />
+      </form>
     </div>
-</body>
-
+  </body>
 </html>
